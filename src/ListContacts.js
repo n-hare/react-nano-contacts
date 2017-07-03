@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import propTypes from 'prop-types'
 import escapeRegExp from 'escape-string-regexp'
 import sortBy from 'sort-by'
@@ -43,7 +43,7 @@ class ListContacts extends React.Component {
 
                 { showingContacts.length !== contacts.length && (
                     <div className='showing-contacts'>
-                        <span>{`Now showing ${showingContacts.length} of ${contacts.length} total`}</span>
+                        <span>{`Now Showing ${showingContacts.length} of ${contacts.length}`}</span>
                         <button onClick={ () => this._clearQuery() }>Show All</button>
                     </div>
                 )}
